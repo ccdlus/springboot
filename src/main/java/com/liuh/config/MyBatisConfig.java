@@ -1,4 +1,4 @@
-package com.joyowo.config;
+package com.liuh.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -14,7 +14,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 /**
  * Created by liuhui.
  */
-@MapperScan(basePackages = "com.joyowo.*.mapper")
+@MapperScan(basePackages = "com.liuh.*.mapper")
 @Configuration
 public class MyBatisConfig {
 
@@ -27,7 +27,7 @@ public class MyBatisConfig {
 
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(druidConfig.mysqlDataSource());
-        sqlSessionFactoryBean.setTypeAliasesPackage("com.joyowo");
+        sqlSessionFactoryBean.setTypeAliasesPackage("com.liuh");
 
         //分页插件
        /* PagePlugin pagePlugin = new PagePlugin();

@@ -1,4 +1,4 @@
-package com.joyowo.config;
+package com.liuh.config;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 import org.springframework.boot.builder.SpringApplicationBuilder;

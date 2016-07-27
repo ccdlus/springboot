@@ -1,4 +1,4 @@
-package com.joyowo.config;
+package com.liuh.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.boot.context.properties.ConfigurationProperties;
